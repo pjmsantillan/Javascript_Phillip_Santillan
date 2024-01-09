@@ -20,13 +20,13 @@ const ToDo = () =>{
     let sum = addition(firstnumber, secondnumber);
     let difference = subtraction(firstnumber, secondnumber);
     let product = multiplication(firstnumber, secondnumber);
-    let qoutient = division(firstnumber, secondnumber);
+    let quotient = division(firstnumber, secondnumber);
 
     // Display the result
     document.getElementById('sum').innerText = sum;
     document.getElementById('difference').innerText = difference;
     document.getElementById('product').innerText = product;
-    document.getElementById('qoutient').innerText = qoutient;
+    document.getElementById('quotient').innerText = quotient;
 }
 
 
